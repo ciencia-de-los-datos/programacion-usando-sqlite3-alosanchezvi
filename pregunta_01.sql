@@ -19,4 +19,5 @@
 
 select sum(c12)
 from tbl1
+;
 --
