@@ -40,4 +40,8 @@
 --  3  2019  550.998571
 --
 --  >>> Escriba su codigo a partir de este punto <<<
+select avg(c21)
+from tbl2, year(c23) as YEAR
+group by  year(c23) ;
+
 --
