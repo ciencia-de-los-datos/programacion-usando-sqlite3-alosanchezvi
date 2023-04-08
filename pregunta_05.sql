@@ -33,6 +33,7 @@
 --  o igual a 600
 -- 
 -- Rta/
+
 --    K0   c01  c02    c03  c04
 --  0  B  7000  100  OLPKN  0.2
 --  1  C  1000  600  LMMML  0.2
@@ -41,3 +42,7 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
+select *
+from tbl0
+where c02 in (100,600)
+;
