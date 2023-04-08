@@ -20,3 +20,4 @@
 -- 
 select count(*)
 from tbl1
+;
