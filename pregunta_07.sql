@@ -33,6 +33,7 @@
 --  registros con K0 diferente a A y B y c13 diferente 
 --  de 200 y 900
 --
+
 --  Rta/
 --     K0  K1     c12  c13         c14   c15   c16
 --  0   E  14  832.44  800  2016-11-22  0.39  EGFD
@@ -43,3 +44,8 @@
 -- 
 --  >>> Escriba su codigo a partir de este punto <<<
 --
+select 
+from tbl1 
+where k0 not in ('A','B') and  c13 not in (200,900)
+order by c14
+;
