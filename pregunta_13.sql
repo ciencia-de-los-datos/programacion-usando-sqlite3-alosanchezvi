@@ -42,9 +42,8 @@
 --  4  E  474.825000
 -- 
 --  >>> Escriba su codigo a partir de este punto <<<
---  
-select k0 , AVG(c12)
-from tbl1
-where c13 > 400
-group by k0
-;
+--
+SELECT K0, avg(c12) 
+FROM tbl1 
+WHERE c13 > 400 
+GROUP BY K0;
