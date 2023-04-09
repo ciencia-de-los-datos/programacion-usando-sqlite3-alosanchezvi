@@ -45,5 +45,6 @@
 --  
 select k0 , AVG(c12)
 from tbl1
+where c13 > 400
 group by k0
-where c13 > 400;
+;
