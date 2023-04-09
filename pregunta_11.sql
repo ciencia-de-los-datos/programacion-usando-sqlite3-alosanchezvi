@@ -39,6 +39,6 @@
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
 
-select count(*) as CANT
+select COUNT(*) as CANT
 from tbl1
-where year(c23)=2018;
+where EXTRACT(YEAR FROM c23)=2018;
