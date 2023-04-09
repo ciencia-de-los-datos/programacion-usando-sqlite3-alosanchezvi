@@ -39,6 +39,6 @@
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
 
-select COUNT(*) as CANT
+select COUNT(*)
 from tbl1
-where EXTRACT(YEAR FROM c23)=2018;
+where cast(strftime('%Y', c14) AS INTEGER)=2018;
