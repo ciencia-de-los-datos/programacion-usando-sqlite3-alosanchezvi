@@ -43,7 +43,7 @@
 -- 
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
-select k0 , avg(c12)
+select k0 , AVG(c12)
 from tbl1
 group by k0
 where  c13>400;
