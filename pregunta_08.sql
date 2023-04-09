@@ -40,6 +40,7 @@
 --  3  2019  550.998571
 --
 --  >>> Escriba su codigo a partir de este punto <<<
-select  YEAR(c23)  as YEAR, AVG(c21)
+--
+select  SUBSTR(c23, 1, 4)  as YEAR, AVG(c21)
 from tbl2
-group by  YEAR;
+group by  SUBSTR(c23, 1, 4);
