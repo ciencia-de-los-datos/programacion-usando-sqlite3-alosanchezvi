@@ -42,3 +42,7 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
+select *
+from tb10
+where c02 >= 300;
+
