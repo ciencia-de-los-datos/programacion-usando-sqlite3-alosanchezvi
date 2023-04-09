@@ -40,5 +40,5 @@
 --
 select *
 from tbl2
-order by  c21 desc 
+order by  c21 asc 
 limit 1;
