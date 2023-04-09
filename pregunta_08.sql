@@ -41,6 +41,6 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
-select  SUBSTR(c23, 1, 4)  as YEAR, AVG(c21)
+select  strftime('%Y', c23), AVG(c21)
 from tbl2
-group by  SUBSTR(c23, 1, 4);
+group by strftime('%Y', c23);
