@@ -41,6 +41,6 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
-select  strftime('%Y', c23), AVG(c21)
-from tbl2
-group by strftime('%Y', c23);
+SELECT strftime('%Y', c23), avg(c21) 
+FROM tbl2 
+GROUP BY strftime('%Y', c23);
